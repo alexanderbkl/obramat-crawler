@@ -2,9 +2,16 @@
 
 EDUCATIONAL PURPOSES ONLY.
 
-NOTE BY ALEKS: I'm open for work on something similar. Reach me at abaikalov@uoc.edu
+NOTE BY ALEKS: I'm open for freelance work on this or something similar. Reach me at abaikalov@uoc.edu
 
 A sleek, modern analytics dashboard for visualizing product data from the Obramat web crawler.
+
+![Dashboard Preview Screenshot 1](screenshot-dashboard-1.png)
+![Dashboard Preview Screenshot 2](screenshot-dashboard-2.png)
+![Dashboard Preview Screenshot 3](screenshot-dashboard-3.png)
+![Dashboard Preview Screenshot 4](screenshot-dashboard-4.png)
+![Dashboard Preview Screenshot 5](screenshot-dashboard-5.png)
+
 
 ![Dashboard Preview](https://via.placeholder.com/800x400?text=Obramat+Analytics+Dashboard)
 

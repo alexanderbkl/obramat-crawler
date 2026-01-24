@@ -75,7 +75,7 @@ router.get('/price-distribution', async (req, res) => {
           WHEN price <= 100 THEN '50-100€'
           WHEN price <= 200 THEN '100-200€'
           ELSE '200€+'
-        END as range,
+        END as \`range\`,
         COUNT(*) as count,
         AVG(price) as avgPrice
       FROM products
@@ -122,11 +122,11 @@ router.get('/stock-levels', async (req, res) => {
           ELSE 'High (50+)'
         END
       ORDER BY 
-        CASE 
-          WHEN pa.stock = 0 THEN 1
-          WHEN pa.stock <= 5 THEN 2
-          WHEN pa.stock <= 20 THEN 3
-          WHEN pa.stock <= 50 THEN 4
+        CASE level
+          WHEN 'Out of Stock' THEN 1
+          WHEN 'Low (1-5)' THEN 2
+          WHEN 'Medium (6-20)' THEN 3
+          WHEN 'Good (21-50)' THEN 4
           ELSE 5
         END
     `);
@@ -174,7 +174,7 @@ router.get('/top-products', async (req, res) => {
       `;
     }
 
-    const [products] = await pool.execute(query, [limit]);
+    const [products] = await pool.execute(query, [String(limit)]);
     res.json(products);
   } catch (error) {
     console.error('Error fetching top products:', error);
