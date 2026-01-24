@@ -11,9 +11,9 @@ A sleek, modern analytics dashboard for visualizing product data from the Obrama
 ![Dashboard Preview Screenshot 3](screenshot-dashboard-3.png)
 ![Dashboard Preview Screenshot 4](screenshot-dashboard-4.png)
 ![Dashboard Preview Screenshot 5](screenshot-dashboard-5.png)
-
-
-![Dashboard Preview](https://via.placeholder.com/800x400?text=Obramat+Analytics+Dashboard)
+![Dashboard Preview Screenshot 6](screenshot-dashboard-6.png)
+![Dashboard Preview Screenshot 7](screenshot-dashboard-7.png)
+![Dashboard Preview Screenshot 8](screenshot-dashboard-8.png)
 
 ## Features
 
