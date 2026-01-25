@@ -1,4 +1,4 @@
-module github.com/alexanderbkl/financial-freedom
+module github.com/alexanderbkl/obramat-crawler
 
 go 1.24.1
 

@@ -1,6 +1,6 @@
 run:
-	cd ./obramat && go run . $(ARGS) && cd ..
+	go run . $(ARGS) && cd ..
 migrate:
-	cd ./obramat && go run . -migrate-only && cd ..
+	go run . -migrate-only && cd ..
 resume:
-	cd ./obramat && go run . -resume $(ARGS) && cd ..
+	go run . -resume $(ARGS) && cd ..
