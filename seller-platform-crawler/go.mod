@@ -1,4 +1,4 @@
-module github.com/alexanderbkl/obramat-crawler/seller-platform-crawler
+module seller-platform-crawler
 
 go 1.24.1
 
