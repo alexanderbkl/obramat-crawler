@@ -6,14 +6,14 @@ NOTE BY ALEKS: I'm open for freelance work on this or something similar. Reach m
 
 A sleek, modern analytics dashboard for visualizing product data from the Obramat web crawler.
 
-![Dashboard Preview Screenshot 1](screenshot-dashboard-1.png)
-![Dashboard Preview Screenshot 2](screenshot-dashboard-2.png)
-![Dashboard Preview Screenshot 3](screenshot-dashboard-3.png)
-![Dashboard Preview Screenshot 4](screenshot-dashboard-4.png)
-![Dashboard Preview Screenshot 5](screenshot-dashboard-5.png)
-![Dashboard Preview Screenshot 6](screenshot-dashboard-6.png)
-![Dashboard Preview Screenshot 7](screenshot-dashboard-7.png)
-![Dashboard Preview Screenshot 8](screenshot-dashboard-8.png)
+![Dashboard Preview Screenshot 1](./assets/screenshot-dashboard-1.png)
+![Dashboard Preview Screenshot 2](./assets/screenshot-dashboard-2.png)
+![Dashboard Preview Screenshot 3](./assets/screenshot-dashboard-3.png)
+![Dashboard Preview Screenshot 4](./assets/screenshot-dashboard-4.png)
+![Dashboard Preview Screenshot 5](./assets/screenshot-dashboard-5.png)
+![Dashboard Preview Screenshot 6](./assets/screenshot-dashboard-6.png)
+![Dashboard Preview Screenshot 7](./assets/screenshot-dashboard-7.png)
+![Dashboard Preview Screenshot 8](./assets/screenshot-dashboard-8.png)
 
 ## Features
 
