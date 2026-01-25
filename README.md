@@ -1,10 +1,10 @@
-# Obramat Analytics Dashboard
+# Consumer Platform Crawler and Analytics Dashboard
 
 EDUCATIONAL PURPOSES ONLY.
 
 NOTE BY ALEKS: I'm open for freelance work on this or something similar. Reach me at abaikalov@uoc.edu
 
-A sleek, modern analytics dashboard for visualizing product data from the Obramat web crawler.
+A sleek, modern analytics dashboard for visualizing product data from the Construction Platform web crawler.
 
 ![Dashboard Preview Screenshot 1](./assets/screenshot-dashboard-1.png)
 ![Dashboard Preview Screenshot 2](./assets/screenshot-dashboard-2.png)
@@ -64,7 +64,7 @@ A sleek, modern analytics dashboard for visualizing product data from the Obrama
 
 ### Prerequisites
 - Node.js 18+
-- MySQL 8.0+ (with the `obramat` database from the crawler)
+- MySQL 8.0+ (with, in this case, the `obramat` database from the crawler)
 
 ### Backend Setup
 
@@ -152,7 +152,7 @@ The frontend will be available at `http://localhost:5173`
 │   ├── tailwind.config.js
 │   └── package.json
 │
-└── obramat-crawler/
+└── consumer-platform-crawler/
     └── ... (crawler files)
 ```
 
