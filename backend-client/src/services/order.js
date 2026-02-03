@@ -8,6 +8,7 @@ const generateOrderNumber = () => {
 };
 
 const SHIPPING_RATE = 5.99; // Flat rate shipping
+const FREE_SHIPPING_THRESHOLD = 50; // Free shipping for orders over €50
 const TAX_RATE = 0.21; // 21% VAT for Spain
 
 export const orderService = {
@@ -61,7 +62,7 @@ export const orderService = {
       (sum, item) => sum + Number(item.product.price) * item.quantity,
       0
     );
-    const shippingCost = SHIPPING_RATE;
+    const shippingCost = subtotal >= FREE_SHIPPING_THRESHOLD ? 0 : SHIPPING_RATE;
     const tax = subtotal * TAX_RATE;
     const total = subtotal + shippingCost + tax;
 

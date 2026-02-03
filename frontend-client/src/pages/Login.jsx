@@ -1,29 +1,9 @@
 import { useState } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
-import { useForm } from 'react-hook-form';
 import toast from 'react-hot-toast';
-import { useAuthStore } from '../../store/authStore';
-import Button from '../../components/common/Button';
-import Input from '../../components/common/Input';
-
-// Simple form hook replacement
-const useSimpleForm = () => {
-  const [values, setValues] = useState({});
-  const [errors, setErrors] = useState({});
-
-  const register = (name) => ({
-    name,
-    value: values[name] || '',
-    onChange: (e) => setValues((prev) => ({ ...prev, [name]: e.target.value })),
-  });
-
-  const handleSubmit = (onSubmit) => (e) => {
-    e.preventDefault();
-    onSubmit(values);
-  };
-
-  return { register, handleSubmit, errors, setErrors };
-};
+import { useAuthStore } from '../store/authStore';
+import Button from '../components/common/Button';
+import Input from '../components/common/Input';
 
 function Login() {
   const navigate = useNavigate();

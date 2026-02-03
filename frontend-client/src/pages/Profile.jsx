@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import toast from 'react-hot-toast';
-import { UserIcon, KeyIcon, MapPinIcon } from '@heroicons/react/24/outline';
+import { UserIcon, KeyIcon } from '@heroicons/react/24/outline';
 import clsx from 'clsx';
 import { useAuthStore } from '../store/authStore';
 import { authApi } from '../api';

@@ -78,7 +78,7 @@ async function main() {
         name: 'Sports & Outdoors',
         slug: 'sports-outdoors',
         description: 'Sports equipment and outdoor gear',
-        imageUrl: 'https://images.unsplash.com/photo-1461896836934- voices-e5ce85?w=400',
+        imageUrl: 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=400',
       },
     }),
   ]);

@@ -116,6 +116,21 @@ After seeding:
 | CORS_ORIGIN | Allowed CORS origin | http://localhost:5174 |
 | STRIPE_SECRET_KEY | Stripe API key | - |
 
+## Security
+
+This API implements several security measures:
+
+- **Helmet** - Sets various HTTP headers for security
+- **CORS** - Restricts API access to configured origins
+- **Rate Limiting** - Prevents brute force attacks
+- **JWT Authentication** - Stateless token-based auth
+- **bcrypt** - Password hashing
+- **httpOnly Cookies** - Secure token storage
+- **SameSite Cookies** - CSRF mitigation
+- **Input Validation** - Zod schema validation
+
+Note: For production deployments with sensitive operations, consider adding CSRF tokens for additional protection on mutation endpoints.
+
 ## License
 
 MIT
