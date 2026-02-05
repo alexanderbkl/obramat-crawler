@@ -34,8 +34,8 @@ services:
       db:
         condition: service_healthy
     volumes:
-      - .:/app
-      - /app/node_modules
+      - ./src:/app/src
+      - ./prisma:/app/prisma
 
 volumes:
   mysql_data:
