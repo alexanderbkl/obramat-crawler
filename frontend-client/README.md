@@ -1,5 +1,8 @@
 # E-Commerce Frontend
 
+![Frontend 1](./assets/frontend-1.png)
+![Frontend 2](./assets/frontend-2.png)
+
 Modern, responsive e-commerce frontend built with React, Vite, and Tailwind CSS.
 
 ## Tech Stack
